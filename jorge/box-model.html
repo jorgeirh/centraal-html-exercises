@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+    .container{
+      width: 600px;
+      margin: 0 auto;
+    }
+    .box{
+      border: 1px dotted red;
+
+    }
+    .box1{
+      background-color: lightblue;
+      position: relative;
+      top: 20px;
+      left: 20px;
+    }
+    .box2{
+     position: absolute;
+     background-color: lightgreen;
+     top: 30px;
+     left: 30px;
+    }
+  </style>
+  <body>
+    <div class="box box1">
+      <h1>Position relative</h1>
+      <ol>
+        <li>Una capa arriba de los elementos que tienen posicionamiento</li>
+        <li>Los demas respetan su lugar</li>
+        <li>Se mueve en relacion a su posición original</li>
+        <li>El display del elemento se respeta (block)</li>
+      </ol>
+      <span>Span</span>
+    </div><div class="box box2">
+      <h1>Position Absolute</h1>
+      <ol>
+        <li>Una capa arriba de los elementos que tienen posicionamniento estatico</li>
+        <li>Los demás no respetan su espacio</li>
+        <li>Se mueve con relación al contenedor padre que tenga un posicionamiento diferente a static</li>
+        <li>Adapta el tamaño al contenido</li>
+      </ol>
+    </div>
+    <div class="box box3">
+      <h1>Position Fixed</h1>
+        <ol>
+          <li>Se queda fija en el viewport con su posicion original</li>
+          <li>Una capa arriba de los elementos que tienen posicionamiento static</li>
+          <li>Los demas no respetan su espacio</li>
+          <li>Se mueve con relación al viewport</li>
+          <li>Adapta el tamaño al contenido</li>
+        </ol>
+    </div>
+  </body>
+  <img src="" alt="">
+</html>

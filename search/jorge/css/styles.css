@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin-left: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+p{
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.navTop{
+  margin-top: 20px;
+  text-align: right
+}
+.navTop li  {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.navTop button{
+  float: right;
+  margin-right: 10px;
+}
+footer{
+  background-color: lightgrey;
+  position: fixed;
+  display: inline-block;
+  bottom: 0;
+  width: 100%;
+  color: #666;
+}
+ footer nav, footer div{
+  border: 1px solid grey;
+  padding: 5px;
+  overflow: auto
+}
+footer li{
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10px;
+
+}
+.btnSesion{
+  font-weight: bold;
+  color: #fff;
+  background-color: #4385f9;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 8px;
+  text-align: center;
+
+}
+footer a, footer a:link, footer a:visited{
+color: #666;
+text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+footer a:active{
+  color: red;
+}
+footer ul:first-of-type{
+  float:left;
+}
+footer ul:last-of-type{
+  float:right;
+}
+
+.navTop a, .navTop a:link, .navTop a:visited{
+color: #666;
+text-decoration: none;
+}
+.navTop a:hover{
+  text-decoration: underline;
+}
+.mainContent{
+  width: 600px;
+  margin:0 auto;
+  text-align: center;
+  margin: 300px auto;
+
+}
+.mainContent img, .mainContent input{
+  display: block;
+  margin: 10px auto;
+}
+.buttons button{
+
+padding: 7px 15px;
+margin-top: 10px;
+margin-bottom: 50px;
+border: none;
+background-color: lightgrey;
+}
+img{
+  width: 40%;
+}
+.mainContent input{
+  width: 100%;
+  padding: 5px;
+  box-shadow: 1px, 1px, 30px, 4px rgba(0,0,0,0.1);
+}
