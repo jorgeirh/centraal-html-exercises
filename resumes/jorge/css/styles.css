@@ -16,8 +16,14 @@ aside{
   background-color: #313335;
   width: 30%;
 }
+main{
+  position: relative;
+  width: 70%;
+}
 .aboutMe{
   background-color: #B2BBC1;
+  margin: 10px 10px;
+  padding: 10px 10px;
 }
 .mainTitles{
   background-color: #54585B;
@@ -26,21 +32,31 @@ aside{
 }
 .mainTitles h1, h2{
   color:#fff;
-
-}
-.sinRayita{
-  list-style-type: none;
-  display: flex;
 }
 .sinRayita a{
+
   text-decoration: none;
   color: #fff;
-  margin-left: auto;
 }
-.sinRayita i{
+.sinRayita li{
+  display: inline-block;
   color: #fff;
   font-size: 1.15rem;
+  margin-right: 15px;
 }
 aside img{
-  width: 80%;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 100%;
+}
+aside li{
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+body main{
+  float: left;
+}
+.rayaDivision{
+  border-top: 2px solid #fff;
+  padding-top: 15px;
 }
