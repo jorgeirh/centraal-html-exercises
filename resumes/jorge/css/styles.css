@@ -1,8 +1,16 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto Slab", serif, Helvetica;
   font-weight: 200;
   font-size: 20px;
   color: #34343;
+  margin: 0 auto;
+  padding: 0
+}
+h1{
+font-size: 20px;
 }
 .fontColor{
   color:#fff
@@ -13,11 +21,15 @@ body {
   text-transform: uppercase;
 }
 aside{
+  float: left;
   background-color: #313335;
   width: 30%;
+  margin-top: 45px;
+  padding-top: 70px;
+  height: 100%;
 }
 main{
-  position: relative;
+  float: left;
   width: 70%;
 }
 .aboutMe{
@@ -48,6 +60,7 @@ aside img{
   margin: 0 auto;
   width: 50%;
   border-radius: 100%;
+  border: 8px solid #fff;
 }
 aside li{
   margin-bottom: 10px;
@@ -59,4 +72,46 @@ body main{
 .rayaDivision{
   border-top: 2px solid #fff;
   padding-top: 15px;
+}
+.habilidades{
+  list-style-type: none;
+  columns: 3;
+}
+.habilidades li::before{
+  content: "\f101";
+  font-family: "fontawesome"
+  
+}
+header h1 {
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  background-color: rgba(0,0,0,0.9);
+  padding: 10px 10px;
+  margin: 0 auto;
+  top: 0;
+}
+.fotoPerfil{
+  text-align: center
+}
+footer{
+  font-weight: bold;
+  font-size: 10px;
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0,0.9);
+  padding: 10px 10px;
+  margin: 0 auto;
+  bottom: 0;
+}
+footer a{
+  color: #fff;
+  float: right;
+  text-decoration: none;
+  bottom:0;
+}
+footer a:hover{
+  text-decoration: underline;
 }
